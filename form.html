@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- <link href="file:///C:/Users/Zingalala/Documents/Code_docs/Web_D/Forms/dialouge.html">
+    <link href="file:///C:/Users/Zingalala/Documents/Code_docs/Web_D/Forms/sign_up.html"> -->
+    <style>
+        body{
+            background-image: url("couple_on_rock.jpg");
+            background-color: none;
+            background-size: cover;
+            background-position: none;
+        }
+        #heading {
+            background-color: rgb(226, 102, 102);
+        }
+        .main{
+            width: 400px;
+            margin: 40px auto 0px auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .register{
+            background-color: rgba(0,0,0,0.5);
+            width: 100%;
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            /* font-size: 18px; */
+            /* padding-left: 100px; */
+            color: #fff;
+        }
+        .already{
+            font-size: small;
+            font-style: italic;
+            text-align: center;
+            color: rgb(216, 235, 108);
+
+        }
+        input#submit{
+            color: rgb(219, 32, 32);
+            font-weight: bold;
+            margin-left: 150px;
+            cursor: pointer;
+        }
+        a#signIn{
+            background-color: bisque;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Registration Form</h1><hr><hr>
+    <div class="main">
+    <div class="register">
+        <form id="register" method="post">
+            <label>Name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="enter name">
+            <br><br>
+            <label>Password:</label>
+            <br>
+            <input type="password" name="password" id="name" placeholder="enter password">
+            <br>
+            <label>confirm password:</label>
+            <br>
+            <input type="text" placeholder="re-enter password">
+            <br><br>
+            <label > Phone Number:</label><br>
+            <input type="number" name="" id="" placeholder="enter phone number">
+            <br><br>
+            <label for="">E-mail:</label><br>
+            <input type="text" name="" id="" placeholder="enter valid email address">
+            <br><br>
+            <label for="">Gender:</label><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male">
+            <span id="male">Male</span>&nbsp;
+            <input type="radio" name="gender" id="female">
+            <span id="female">Female</span>&nbsp;
+            <!-- &nbsp; -->
+            <input type="radio" name="gender" id="others">
+            <span id="others">Others</span>
+            <br><br>
+            <label for=""> Date of Birth:</label><br>
+            <input type="date" name="" id="">
+            <br><br>
+            <label for="">Languages:</label><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">
+            <span>English</span>&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">
+            <span>Hindi</span><br>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">
+            <span>Bengali</span>&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">
+            <span>Tamil</span>&nbsp;&nbsp;
+            <br><br>
+            <label for="conti">Continent:</label><br>
+            <select name="conti" id="conti" aria-placeholder>
+                <option selected>--choose--</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="NorthAme">North America</option>
+                <option value="SouthAme">South America</option>
+                <option value="oshiania">Oshiania</option>
+                <option value="antarc">Antarctica</option>
+            </select>
+            <br><br>
+            <input type="button" onclick="location.href='dialouge.html';" id="submit" value="submit">
+
+        </form>
+    
+    
+    <div class="already">
+        <br>
+        already have an account? <a href="index.html" id="signIn">sign in</a>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
