@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(223, 208, 210);
+    color: black;
+}
+
+/* dropdown start */
+li a{
+    padding: 10px;
+}
+.list a{
+    margin-left: 0px;
+    background-color: rgb(153, 143, 143);
+}
+.list a:hover{
+    background-color: wheat;
+}
+ul.drop .contact{
+    float: right;
+    width: 80px;
+    height: 25px;
+    padding-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgb(153, 143, 143);
+    list-style: none;    
+}
+.list a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+.contact:hover .list{
+    display:block;
+}
+.list{
+    display: none;
+}
+/*drop down end*/
+
+#outerDiv{
+    height: page;
+    width: 700px;
+    padding: 10px;
+    border: 10px solid yellowgreen ;
+    margin: auto;
+}
+
+.upper{
+    margin-top: 60px;
+    height: 150px;
+}
+.photo{
+    float: right;
+    width:20%;
+    height: 20%px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.name{
+    background-color: rgb(238, 150, 150);
+    height: 50px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 4px;
+    
+    /* display: inline; */
+}
+.about{
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+}
+.headings h3{
+    text-decoration: underline;
+}

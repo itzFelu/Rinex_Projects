@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="felu_cv.css">
     <title>Felu's CV</title>
 </head>
 <body>
-    <div>
-        <div>
-            <Menu>
-                <a href="#">Contact</a>
-                <a href="#">Phone Number</a>
-                <a href="#">Email</a>
-                <a href="#">Location</a>
-            </Menu>
+    <div >
+        <ul class="drop">
+            <li class="contact">Contact
+                <div class="list">
+                    <a href="#">Number</a>
+                    <a href="#">Email</a>
+                    <a href="#">Location</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="outerDiv">
+        <img  class="photo" src="imageDocs/my_image.jpg" alt="unable to load"  >
+        <div class="upper">
+            <h1 class="name">Sukanta Roy</h1>
+            <div class="about">
+                I am a passionate programmer and engineer, 
+                who loves to learn new things. <br>
+                I want to give my best to the industry.
+            </div>
         </div>
-        <div>
-            <h1 style="display: inline;">Sukanta Roy</h1>
-            <img src="imageDocs/my_image.jpg" alt="unable to load" width="150px" height="200px" >
-        </div>
-        <div>
+        <div class="headings">
             <h3>Technical Skills</h3>
             <ul>
-                <li>Programming Languages: c,c++,java,Python</li>
-                <li>Development: HTML,CSS,JavaScript</li>
+                <li>Programming Languages: C, C++, Java, Python</li>
+                <li>Development: HTML, CSS, JavaScript</li>
                 <li>Others: Arduino Programming, Shell Scripting(Linux and Windows)</li>
             </ul>
         </div>
-        <div>
+        <div class="headings">
             <h3>Education</h3>
             <table border="10">
                 <tr>
@@ -58,7 +67,7 @@
                 
             </table>
         </div>
-        <div>
+        <div class="headings">
             <h3>Projects and Internships</h3>
             <ul>
                 <li>Form Interface, CV, simple Calculator using HTML,CSS and JS</li>
@@ -68,7 +77,7 @@
             </ul>
         </div>
         <hr><hr>
-        <div>
+        <div class="social">
             <h5>Social Handles</h5>
             <ul>
                 <li><a href="#">LinkedIn</a></li>
