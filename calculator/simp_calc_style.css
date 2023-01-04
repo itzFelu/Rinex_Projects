@@ -1,0 +1,92 @@
+body{
+    background-color: aquamarine;
+}
+.main{
+    /* margin: auto;
+    width: 50%; */
+}
+h1{
+    text-align: center;
+    width: 100%;
+    
+}
+h1:hover{
+    background-color: bisque;
+}
+.calcBody{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin-left: 35%;
+    
+}
+span{
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+    margin-top: 14.5px;
+}
+#screen{
+    width: 270px;
+    height: 50px;
+    /* border: 5px solid white; */
+    /* margin-left: 14.5px; */
+    margin-top: 14.5px; 
+    /* margin: 14.5px; */
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+#del{
+    /* display: inline; */
+    width: 60px;
+    height: 50px;
+    background-color: rgb(233, 157, 150);
+    font-size: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 25px;
+}
+#del:hover{
+    background-color: rgb(100, 100, 226);
+}
+table{
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+    margin-top: 14.5px;
+    /* margin: 14.5px; */
+    
+}
+.buttons{
+    width: 88px;
+    height: 60px;
+    background-color: lightblue;
+    font-size: 30px;
+}
+.buttons:hover{
+    background-color: rgb(214, 139, 26);
+}
+#C:hover{
+    background-color: red;
+}
+#equals:hover{
+    background-color: green;
+}
+#add:hover{
+    background-color: rgb(228, 97, 206);
+}
+#sub:hover{
+    background-color: rgb(228, 97, 206);
+}
+#mul:hover{
+    background-color: rgb(228, 97, 206);
+}
+#div:hover{
+    background-color: rgb(228, 97, 206);
+}
+
+h3{
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
