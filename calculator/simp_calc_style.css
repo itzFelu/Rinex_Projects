@@ -27,7 +27,7 @@ span{
     margin-top: 14.5px;
 }
 #screen{
-    width: 270px;
+    width: 240px;
     height: 50px;
     /* border: 5px solid white; */
     /* margin-left: 14.5px; */
@@ -45,10 +45,20 @@ span{
     font-size: 20px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 #del:hover{
     background-color: rgb(100, 100, 226);
+}
+#C{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(233, 157, 150);
+    font-size: 20px;
+    border-radius: 5px;
+}
+#C:hover{
+    background-color: red;
 }
 table{
     margin-left: 14.5px;
@@ -65,9 +75,6 @@ table{
 }
 .buttons:hover{
     background-color: rgb(214, 139, 26);
-}
-#C:hover{
-    background-color: red;
 }
 #equals:hover{
     background-color: green;

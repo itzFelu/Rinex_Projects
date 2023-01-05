@@ -12,13 +12,13 @@
     <div class="main">
         <h1 class="heading">CASIO</h1>
         <div class="calcBody">
-            <span><input type="text" id="screen" > <input id="del" type="button" value="DEL" onclick=getVal("b")></span>
+            <span><input type="text" id="screen" > <input id="del" type="button" value="DEL" onclick=getVal("b")> <input id="C" type="button" value="C" onclick=getVal("C")></span>
             <table>
                 <tr>
                     <td><input class="buttons" type="button" value="1" onclick=getVal("1")></td>
                     <td><input class="buttons" type="button" value="2" onclick=getVal("2")></td>
                     <td><input class="buttons" type="button" value="3" onclick=getVal("3")></td>
-                    <td><input class="buttons" id="C" type="button" value="C" onclick=getVal("C")></td>
+                    <td><input class="buttons" id="mul" type="button" value="*" onclick=getVal("*")></td>
 
                 </tr>
                 <tr>
@@ -36,8 +36,8 @@
 
                 </tr>
                 <tr>
+                    <td><input class="buttons" type="button" value="." onclick=getVal(".")></td>
                     <td><input class="buttons" type="button" value="0" onclick=getVal("0")></td>
-                    <td><input class="buttons" id="mul" type="button" value="*" onclick=getVal("*")></td>
                     <td><input class="buttons" id="div" type="button" value="/" onclick=getVal("/")></td>
                     <td><input class="buttons" id="equals" type="button" value="=" onclick=getVal("=")></td>
 
