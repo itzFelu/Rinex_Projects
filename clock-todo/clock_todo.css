@@ -91,6 +91,8 @@ h1{
 #ip{
     border: 2px solid rgb(154, 154, 243);
     border-radius: 5px;
+    width: 40%;
+    height: 30px;
 }
 #butt{
     margin-left: 5px;
