@@ -5,20 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinex Projects</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #main{
+            background-color: palegreen;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 30px;
+        }
+        a{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            font-style: italic;
+        }
+        #pers{
+            background-color: violet;
+        }
+        a:hover{
+            background-color: rgb(82, 66, 54);
+            color: white;
+        }
+        span{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        span:hover{
+            color: white;
+            background-color: rgb(100, 50, 50);
+        }
+        .mid{
+            width: 40%;
+            height: 2px;
+            border-radius: 30%;
+            background-color: purple;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>--------:Rinex Projects:---------</h1>
-    <div>
-        Mini Project-1: <a href=".\form\form.html" target="_blank">Form</a>
+    <div id="main">
+        <span> Mini Project-1:</span> <a href=".\form\form.html" target="_blank">Form</a>
         <br>
-        Mini Project-2: <a href=".\cv\felu_cv.html" target="_blank">CV</a>
-        <br><br>
-        Major Project-1: <a href=".\calculator\simple_calculator.html" target="_blank">Calculator</a>
+        <span>Mini Project-2:</span> <a href=".\cv\felu_cv.html" target="_blank">CV</a>
+        <br><hr class="mid">
+        <span>Major Project-1:</span> <a href=".\calculator\simple_calculator.html" target="_blank">Calculator</a>
         <br>
-        Major Project-2: <a href="./under_construction.html" target="blank">To-do List with Clock</a>
+        <span>Major Project-2:</span> <a href="./clock-todo/clock_todo.html" target="blank">To-do List with Clock</a>
     </div>
     <br><br>
     <hr><hr>
-    <div>Personal Practice: <a href="https://itzfelu.github.io/phelusphil/" target="_blank">click here</a></div>
+    <span style="background-color: tomato; display: inline-block; margin: 10px; padding: 5px;">Personal Practice:</span>
+    <a id="pers" href="https://itzfelu.github.io/phelusphil/" target="_blank">click here</a></div>
 </body>
 </html>
